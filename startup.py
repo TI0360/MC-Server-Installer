@@ -14,7 +14,7 @@ if os.name == 'nt':
 
 else:
     layout = [[sg.Text("サポートされていないOSで実行されたためアプリを終了します。")],
-              [sg.Text("サポートOSは同封されているテキストファイルを参照してください。")]]
+              [sg.Text("サポートOSは(https://github.com/TI0360/MC-Server-Installer/tree/master)を参照してください。")]]
     window = sg.Window('起動エラー', layout)
     while True:
         event, values = window.read()

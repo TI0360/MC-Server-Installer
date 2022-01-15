@@ -7,7 +7,7 @@ import PySimpleGUI as sg
 import windows_content
 
 sg.theme('LightBlue')
-version = "v1"
+version = "v1.1"
 
 
 url = 'https://api.github.com/repos/TI0360/MC-Server-Installer/releases'
