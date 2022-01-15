@@ -1,7 +1,7 @@
 import sys
 import os
 import windows
-#import linux
+import linux
 import PySimpleGUI as sg
 
 sg.theme('LightBlue')
@@ -9,8 +9,8 @@ sg.theme('LightBlue')
 if os.name == 'nt':
     windows.startup()
 
-#elif os.name == 'posix':
-    #linux.startup()
+elif os.name == 'posix':
+    linux.startup()
 
 else:
     layout = [[sg.Text("サポートされていないOSで実行されたためアプリを終了します。")],
